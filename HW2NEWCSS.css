@@ -378,6 +378,7 @@ footer {
             margin-left: 10%;
             margin-right: 10%;
         }
+     
 
         section {
             height: 100%;
@@ -394,7 +395,12 @@ footer {
             align-items: center;
             text-align: center;
         }
-
+        .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+            
+        }
         #contact {
             margin-bottom: 6em;
         }
