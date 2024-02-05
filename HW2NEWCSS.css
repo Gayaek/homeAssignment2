@@ -44,6 +44,21 @@ body {
     margin-left: 15%;
     margin-right: 35%;
 }
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 12px;
+}
+.contact img{
+    width: 25px;
+    height: 25px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
 
 section {
     height: auto;
@@ -108,6 +123,11 @@ nav a:hover {
 
 nav li:first-child {
     margin-right: auto;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+    
 }
 
 .sidebar {
